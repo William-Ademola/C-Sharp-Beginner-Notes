@@ -23,3 +23,22 @@ public const int month = 12, days = 365 , weeks = 52;
 //Multiple constants of the same type can be declared at the same time
 ```
 
+```C#
+using System;
+
+namespace MyFirstProgram{
+
+    class Program{
+
+          public const double pi = 3.14;
+
+          static void Main(string[] args){
+                Console.WriteLine("Hello World");
+
+                Console.WriteLine(pi);
+          }
+    }
+}
+```
+Make sure to have your constants outside your main method but in your class.
+In C#, constants are typically defined within the class scope but outside any method. This makes them accessible to all methods within the class.
